@@ -1,0 +1,296 @@
+
+html    {
+    width: 1px;
+    height: 1020px;
+
+
+
+}
+
+body {
+    margin: 0px 0px;
+    color: white;
+    font-family: Impact;
+}
+
+.parte1 {
+    margin-left: 0px;
+    position: absolute;
+    width: 1448px;
+    height: 1020px;
+    background-color: #10061E;
+    }
+
+.Encabezado {
+    display: flex;
+    border-bottom: 1px solid rgb(43, 43, 43);
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1A0A2F;
+    padding: 10px 20px;
+    height: 100px;
+    
+}
+.LogoPagina {
+    margin-left: 50px;
+    display: inline;
+    width: 83.15px ;
+    height: 75px;
+    background-color: #1A0A2F;
+    background-image: url("/logo_png_pagina_web.png");  
+    background-size: cover; 
+    background-position: center;  
+    border: none;
+            
+}
+.Encabezado-StackDeNavegacion {
+    display: flex;
+    font-family: Arial;
+    list-style: none;
+    margin: 0px 20px;
+    ;
+    padding: 0;
+}
+.Encabezado-StackDeNavegacion li {
+    
+    margin: 0 30px;
+    margin-top: 25px;
+    font-family: Impact;
+   
+}
+.Encabezado-StackDeNavegacion a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+    .Encabezado-Usuario {
+        margin-right: 50px;
+        display: inline;
+        width: 90px ;
+        height: 90px;
+        background-image: url("/usuario_pagina.png");  
+        background-size: cover; 
+        background-position: center;  
+        border: none;
+        background-color:#1A0A2F;
+    }
+
+
+
+
+    .Parte1_1 {
+        text-align: center;
+        padding: 50px 0;
+        position: relative;
+    }
+    .Parte1_1 img {
+        position: absolute;
+    }
+    .Parte1_1-InfoGames {
+        width: 553px;
+        height: 116px;
+        top: 70px;
+        left: 45%;
+        transform: translateX(-50%);
+    }
+    .Parte1_1-ImagenReaper {
+        width: 483px;
+        height: 629px;
+        top: 190px;
+        left: 3%;
+    }
+    .Parte1_1-ImagenGenshin {
+        width: 684px;
+        height: 700px;
+        top: 50px;
+        right: 3%;
+    }
+    .Parte1_1-Informacion {
+        position: absolute;
+        top: 250px;
+        left: 45%;
+        width: 341px;
+        height: 155px;
+        color: #ffffffe7;
+        transform: translateX(-50%);
+        font-family: Impact, sans-serif;
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    .Parte1_1-Informacion a {
+        color: rgba(0, 13, 255, 0.778);
+        text-decoration: none;
+    }
+
+
+
+
+    .parte2{
+        position:absolute;
+        margin-top: 1020px;
+        margin-left: 0px;
+        width: 1448px;
+        height: 1020px;
+        background-color: #130626;
+    }
+
+
+    .ImagenAbeja, .ImagenAllay, .ImagenSteveArco, .ImagenStevePico, .LogoMinecraft, .TextoFondoNegro, .JuegosDestacados {
+        position: absolute;
+    }
+    .ImagenAbeja {
+        top: 0%;
+        left: 5%;
+        width: 186px;
+        height: 174px;
+    }
+    .ImagenAllay {
+        top: 13%;
+        right: 10%;
+        width: 118px;
+        height: 87px;
+    }
+    .ImagenSteveArco {
+        bottom: 12%;
+        left: 10%;
+        width: 258px;
+        height: 437px;
+    }
+    .ImagenStevePico {
+        bottom: 12%;
+        right: 10%;
+        width: 281px;
+        height: 349px;
+    }
+    .LogoMinecraft {
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 830px;
+        height: 437px;
+    }
+
+    .JuegosDestacados {
+        top: 70px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 758px;
+        height: 116px;
+    }
+    .TextoFondoNegro {
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 323px;
+        height: 430px;
+        background-color: #36343B;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .TextoFondoBlanco {
+        width: 299px;
+        height: 400px;
+        text-align: center;
+        background-color: #ffffff;
+        border-radius: 10px;
+        color: #ffffffe7;
+        text-shadow:    
+            -1px -1px 0 #000,  
+            1px -1px 0 #000,
+            -1px  1px 0 #000,
+            1px  1px 0 #000; 
+        padding: 10px;
+        box-sizing: border-box;
+        letter-spacing: 1px;
+    }
+
+
+footer{
+    position:absolute;
+    margin-top: 2040px;
+    margin-left: 0px;
+    border-TOP: 1px solid rgb(43, 43, 43);
+    width: 1448px;
+    height: 150px;
+    background-color: #241B32  ;
+}
+
+.footer {
+    position:absolute;
+    margin-top: 899px;
+    margin-left: 0px;
+    border-TOP: 1px solid rgb(43, 43, 43);
+    width: 1448px;
+    height: 150px;
+    background-color: #241B32  ;
+}
+
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-320%);
+    display: inline;
+    align-items: center;
+}
+.logo img:first-child{
+    width: 42px;
+    height: 38px;
+}
+.logo img:last-child {
+    width: 142px;
+    height: 39px;
+    margin-left: 10px;}
+
+    .lineas {
+        width: 1290px;
+        height: 1px;
+        background-color: white;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .linea1 {
+        top: 70px;
+    }
+    .linea2 {
+        top: 130px;
+    }
+
+    .creditos {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(170%);
+        
+        font-size: 11px;
+    letter-spacing: 1px;}
+
+        .redessociales {
+            position: absolute;
+            top: 100px;
+            left: 50%;
+            transform: translateX(-100%);
+            display: flex;
+            justify-content: space-between;
+            width: 150px;
+        }
+        .redessociales a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 30px;
+            height: 30px;
+            margin: 0 10px;
+        }
+        .redessociales a svg {
+            width: 30px;
+            height: 30px;
+            fill: none;
+            stroke: #ffffff;
+        }
